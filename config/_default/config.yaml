@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
+title: SKY@Lugano # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -14,6 +14,15 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+params:
+  gallery:
+    columns: 3
+    rows: 2
+  css:
+    custom:
+      - "div.white-text { color: blue; }"
+
 
 ############################
 ## MODULES

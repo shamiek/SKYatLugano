@@ -8,18 +8,17 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        SKY@Lugano
       image:
-        filename: welcome.jpg
+        filename: welcome.png
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        SKY@Lugano promotes physical and mental well-being of the student community through scientific breathwork and meditation techniques.
   
   - block: collection
     content:
-      title: Latest News
+      title: Latest on SKY
       subtitle:
       text:
       count: 5
@@ -31,29 +30,31 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: news
     design:
-      view: card
+      view: compact
       columns: '1'
   
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      title: "At Stanford, we have found that SKY Campus Happiness has played an important role in improving overall student well-being."
+      subtitle: '– Director, <br>
+      Wellness & Health Promotion Services <br>
+      Stanford University'
+      text: "This is a <span class='white-text'>word</span> with white text color."
     design:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: PeopleMeditating.webp
           filters:
-            brightness: 1
+            brightness: 0.7
           parallax: false
           position: center
-          size: cover
+          size: large
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['20px', '20px', '20px', '20px']
       css_class: fullscreen
   
   - block: markdown

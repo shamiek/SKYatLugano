@@ -11,6 +11,16 @@ appearance:
   font: native
   font_size: L
 
+# Gallery
+gallery:
+  columns: 3
+  rows: 2
+
+#CSS
+css:
+  custom:
+    - "div.white-text { color: red; }"
+
 # SEO
 
 marketing:
