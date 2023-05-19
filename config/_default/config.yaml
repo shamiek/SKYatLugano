@@ -5,6 +5,7 @@
 
 title: SKY@Lugano # Website name
 baseURL: 'https://example.com/' # Website URL
+canonifyURLs: true
 
 ############################
 ## LANGUAGE
