@@ -5,7 +5,6 @@
 
 title: SKY@Lugano # Website name
 baseURL: 'https://example.com/' # Website URL
-canonifyURLs: true
 
 ############################
 ## LANGUAGE
@@ -15,14 +14,6 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
-
-params:
-  gallery:
-    columns: 3
-    rows: 2
-  css:
-    custom:
-      - "div.white-text { color: blue; }"
 
 
 ############################
